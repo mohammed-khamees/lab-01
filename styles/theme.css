@@ -1,0 +1,90 @@
+* {
+	color: white;
+}
+
+header,
+div,
+aside,
+article {
+	background-color: gray;
+	border: 1px solid black;
+	color: white;
+}
+
+.a {
+	background-color: red;
+}
+
+.b {
+	background-color: green;
+}
+.c {
+	background-color: black;
+}
+
+.d {
+	background-color: blue;
+}
+
+.e {
+	background-color: crimson;
+}
+
+.f {
+	background-color: rgb(223, 184, 111);
+}
+
+.g {
+	background-color: aquamarine;
+}
+
+.h {
+	background-color: olive;
+}
+
+.i {
+	background-color: orchid;
+}
+
+@media screen and (max-width: 767px) {
+	.a {
+		background-color: orchid;
+	}
+
+	.b {
+		border-right: 1px solid black;
+		background-color: olive;
+	}
+
+	.c {
+		border-right: 1px solid black;
+		background-color: aquamarine;
+	}
+
+	.d {
+		background-color: rgb(223, 184, 111);
+	}
+
+	.e {
+		background-color: tomato;
+	}
+
+	.f {
+		border-right: 1px solid black;
+		background-color: blue;
+	}
+
+	.g {
+		border-top: 1px solid black;
+		background-color: black;
+	}
+
+	.h {
+		border-top: 1px solid black;
+		background-color: green;
+	}
+
+	.i {
+		background-color: red;
+	}
+}
