@@ -1,211 +1,160 @@
 .a {
-	width: 960px;
-	height: 100px;
-	border-bottom: none;
 	margin-top: 2rem;
-	background-color: red;
+	width: 480px;
+	height: 75px;
+	border-bottom: none;
 }
 
 .b {
-	width: 200px;
-	height: 100%;
-	border-right: none;
-	float: left;
-	background-color: green;
-}
-
-.rest {
-	height: 100%;
-	float: left;
+	width: 100%;
+	height: 150px;
+	border-bottom: none;
 }
 
 .cd {
-	width: 760px;
-	height: 200px;
-	clear: both;
+	width: 100%;
+	height: 250px;
 	border: none;
 }
 
 .c {
-	width: 50%;
-	height: 100%;
-	border-right: none;
-	float: left;
-	background-color: black;
+	width: 100%;
+	height: 50%;
+	border-bottom: none;
 }
 
 .d {
-	width: 50%;
-	height: 100%;
-	float: left;
-	background-color: blue;
+	width: 100%;
+	height: 50%;
+	border-bottom: none;
 }
 
 .efgh {
-	width: 760px;
-	height: 250px;
-	clear: both;
+	width: 100%;
+	height: 500px;
 	border: none;
+	display: flex;
+	flex-direction: column;
 }
 
 .ef {
-	width: 50%;
-	height: 100%;
-	display: block;
+	width: 100%;
+	height: 50%;
 	border: none;
-	float: left;
+	display: flex;
 }
 
 .e {
 	width: 50%;
 	height: 100%;
-	border-top: none;
 	border-bottom: none;
-	float: left;
-	background-color: crimson;
+	border-right: none;
 }
 
 .f {
 	width: 50%;
 	height: 100%;
-	float: left;
-	border: none;
-	background-color: rgb(223, 184, 111);
+	border-bottom: none;
 }
 
 .gh {
-	width: 50%;
-	height: 100%;
-	display: block;
-	float: left;
+	width: 100%;
+	height: 50%;
 	border: none;
+	display: flex;
 }
 
 .g {
 	width: 50%;
 	height: 100%;
-	float: left;
 	border-bottom: none;
-	border-top: none;
-	background-color: aquamarine;
+	border-right: none;
 }
 
 .h {
 	width: 50%;
 	height: 100%;
-	float: right;
 	border-bottom: none;
-	border-top: none;
-	border-left: none;
-	background-color: olive;
 }
 
 .i {
-	width: 760px;
-	height: 150px;
-	background-color: orchid;
+	width: 100%;
+	height: 80px;
+	margin-bottom: 2rem;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
 	.a {
-		width: 480px;
-		height: 75px;
-		background-color: orchid;
+		width: 960px;
+		height: 100px;
 	}
 
-
-
 	.b {
-		width: 480px;
-		height: 150px;
-		border-bottom: none;
-		border-right: 1px solid black;
-		background-color: olive;
+		width: 200px;
+		height: 600px;
+		border-right: none;
+		border-bottom: 1px solid black;
 	}
 
 	.cd {
-		width: 480px;
-		height: 250px;
-		clear: both;
-		border: none;
+		width: 760px;
+		height: 200px;
+		display: flex;
 	}
 
 	.c {
-		width: 100%;
-		height: 50%;
-		border-bottom: none;
-		border-right: 1px solid black;
-		background-color: aquamarine;
+		width: 50%;
+		height: 100%;
+		border-right: none;
 	}
 
 	.d {
-		width: 100%;
-		height: 50%;
-		background-color: rgb(223, 184, 111);
+		width: 50%;
+		height: 100%;
 	}
 
 	.efgh {
-		width: 480px;
-		height: 500px;
-		clear: both;
-		border: none;
+		width: 760px;
+		height: 250px;
+		display: flex;
+		flex-direction: row;
 	}
 
 	.ef {
-		width: 100%;
-		height: 50%;
-		display: block;
-		clear: both;
-		border: none;
+		width: 50%;
+		height: 100%;
+		display: flex;
 	}
 
 	.e {
 		width: 50%;
 		height: 100%;
-		float: left;
-		background-color: tomato;
 	}
 
 	.f {
 		width: 50%;
 		height: 100%;
-		float: left;
-		border-left: none;
-		border-right: 1px solid black;
-		background-color: blue;
+		border-right: none;
 	}
 
 	.gh {
-		width: 100%;
-		height: 50%;
-		display: block;
-		clear: both;
-		border: none;
+		width: 50%;
+		height: 100%;
+		display: flex;
 	}
 
 	.g {
 		width: 50%;
 		height: 100%;
-		float: left;
-		border-bottom: none;
-		border-top: 1px solid black;
-		background-color: black;
 	}
 
 	.h {
 		width: 50%;
 		height: 100%;
-		float: right;
-		border-bottom: none;
-		border-left: none;
-		border-top: 1px solid black;
-		background-color: green;
 	}
 
 	.i {
-		width: 480px;
-		height: 80px;
-		background-color: red;
+		width: 760px;
+		height: 150px;
 	}
 }
